@@ -8,4 +8,4 @@ permalink: overview_about.html
 folder: overview
 ---
 
-My name is Vinh, and I'm a ITer.
+My name is Vinh, and I'm an ITer.
