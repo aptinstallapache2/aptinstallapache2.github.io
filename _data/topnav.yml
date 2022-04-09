@@ -5,20 +5,20 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/aptinstallapache2/aptinstallapache2.github.io.git
-    - title: 
-      url: 
+    # - title: 
+    #   url: 
 
 #Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: 
-      folderitems:
-        - title: 
-          external_url: 
-    - title: 
-      folderitems:
-        - title: 
-          url: 
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: 
+#       folderitems:
+#         - title: 
+#           external_url: 
+#     - title: 
+#       folderitems:
+#         - title: 
+#           url: 
 
 # Copyright 2021 Google LLC
