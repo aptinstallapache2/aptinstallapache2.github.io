@@ -1,7 +1,8 @@
 ---
-layout: frontpage
+title: "Getting started"
+keywords: sample homepage
+tags: [getting_started]
+sidebar: mydoc_sidebar
+permalink: index.html
+summary: Sample summary.
 ---
-
-## Welcome to my blog
-
-This is the place where I share my techniques and education.
