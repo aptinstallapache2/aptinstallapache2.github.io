@@ -16,15 +16,15 @@ entries:
       type: homepage
 
     - title: Introduction
-      url: /introduction.html
+      url: /overview_introduction.html
       output: web, pdf
 
     - title: About
-      url: /about.html
+      url: /overview_about.html
       output: web, pdf
 
     - title: Support
-      url: /support.html
+      url: /overview_support.html
       output: web, pdf
 
 
