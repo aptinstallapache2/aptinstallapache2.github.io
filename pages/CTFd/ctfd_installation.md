@@ -6,7 +6,7 @@ permalink: ctfd_installation.html
 folder: CTFd
 ---
 
-# Cài đặt
+## Cài đặt
 
 Phần hướng dẫn cài đặt này có thể dễ dàng tìm được ở [CTFd Docs](https://docs.ctfd.io/) trang [Installation](https://docs.ctfd.io/docs/deployment/installation).
 
@@ -16,7 +16,7 @@ Nếu lười đọc có thể thực hiện theo các bước dưới đây (tu
 
 *(Một lần nữa, mình khuyến khích nên đọc hướng dẫn [CTFd Docs](https://docs.ctfd.io/) để hiểu rõ chi tiết).*
 
-## 1. Install [Docker](https://docs.docker.com/install/)
+### 1. Install [Docker](https://docs.docker.com/install/)
 
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
@@ -40,7 +40,7 @@ Test cài đặt thành công.
 $ sudo docker run hello-world
 ```
 
-## 2. Install [Docker Compose](https://docs.docker.com/compose/install/)
+### 2. Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 ```
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -55,11 +55,11 @@ $ docker-compose --version
 docker-compose version 1.29.2, build 1110ad01
 ```
 
-## 3. Clone CTFd
+### 3. Clone CTFd
 
 `git clone https://github.com/CTFd/CTFd.git`
 
-## 4. Run docker-compose
+### 4. Run docker-compose
 
 `docker-compose up`
 
