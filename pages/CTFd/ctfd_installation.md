@@ -55,11 +55,19 @@ $ docker-compose --version
 docker-compose version 1.29.2, build 1110ad01
 ```
 
-## 3. Clone CTFd `git clone https://github.com/CTFd/CTFd.git`
+## 3. Clone CTFd
 
-## 4. Run `docker-compose up`
+`git clone https://github.com/CTFd/CTFd.git`
 
-*(truy cập folder CTFd trước khi chạy câu lệnh trên: ```$ cd CTFd_HCMUTE/CTFd/```)*
+## 4. Run docker-compose
+
+`docker-compose up`
+
+*(truy cập folder CTFd trước khi chạy câu lệnh trên)*
+
+```
+$ cd CTFd_HCMUTE/CTFd/
+```
 
 Đến đây có thể mở browser trình duyệt quét truy cập `localhost` để xem kết quả *(như hình bên dưới là thành công).*
 
