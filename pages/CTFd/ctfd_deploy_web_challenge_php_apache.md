@@ -41,7 +41,7 @@ Giải thích thì:
 
 |        | ý nghĩa 
 | ------ | ------ 
-| FROM php:7.2-apache | Lấy image từ docker hub làm môi trường chạy web |
+| FROM php:7.2-apache | Lấy image từ docker hub làm môi trường chạy web. |
 | COPY . /var/www/html/ | Copy toàn bộ file ở thư mục hiện tại (là 3 file ở cấu trúc folder nằm đầu trang) vào thư mục mặc định của apache /var/www/html/ |
 
 ## 3. docker-compose.yml
@@ -61,11 +61,11 @@ Giải thích thì:
 
 |        | ý nghĩa 
 | ------ | ------ 
-| version: "3.9" | ersion của file docker-compose (cái này giữ nguyên)  |
-| services | Chứa các container. Với mỗi service là tên của một container (tên container chọn tùy ý) |
-| build | Chỉ ra vị trị đường dẫn đặt Dockerfile (như trên là trỏ về thư mục hiện tại) |
-| ports | Kết nối port của máy host đến port của container (19061 là port của máy chủ, 80 là port mặc định của dịch vụ apache bcontainer) |
-| volumes | Gắn đường dẫn trên host machine được sử dụng trên container |
+| version: "3.9" | ersion của file docker-compose (cái này giữ nguyên).  |
+| services | Chứa các container. Với mỗi service là tên của một container (tên container chọn tùy ý). |
+| build | Chỉ ra vị trị đường dẫn đặt Dockerfile (như trên là trỏ về thư mục hiện tại). |
+| ports | Kết nối port của máy host đến port của container (như trên thì 19061 là port của máy chủ, 80 là port mặc định của dịch vụ apache bcontainer). |
+| volumes | Gắn đường dẫn trên host machine được sử dụng trên container. |
 
 ## 1. Run docker-composer
 
