@@ -36,7 +36,7 @@ entries:
       output: web
 
     - title: Deploy web challenge Php Apache
-      url: /ctfd_deploy_web_challenge_php_apache.md.html
+      url: /ctfd_deploy_web_challenge_php_apache.html
       output: web
 
 
