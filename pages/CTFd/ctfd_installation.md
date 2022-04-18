@@ -12,7 +12,7 @@ Phần hướng dẫn cài đặt này có thể dễ dàng tìm được ở [C
 
 Nếu lười đọc có thể thực hiện theo các bước dưới đây (tuy nhiên chỉ phù hợp tại thời điểm mình viết trang này, [CTFd Docs](https://docs.ctfd.io/) có thể cập nhật thêm về sau).
 
-Server mình dùng để host cấu hình CPU 4GB ram, ổ cứng đâu đó 20GB, hệ điều hành Ubuntu. 
+**Server mình dùng để host cấu hình CPU 4GB ram, ổ cứng đâu đó 20GB, hệ điều hành Ubuntu.**
 
 *(Một lần nữa, mình khuyến khích nên đọc hướng dẫn [CTFd Docs](https://docs.ctfd.io/) để hiểu rõ chi tiết).*
 
