@@ -6,7 +6,7 @@ permalink: ctfd_installation.html
 folder: CTFd
 ---
 
-[ Cài đặt ]
+**[ Cài đặt ]**
 
 Trang này hướng dẫn cài đặt CTFd lên server, các chỉ dẫn này có thể dễ dàng tìm được ở [CTFd Docs](https://docs.ctfd.io/) trang [Installation](https://docs.ctfd.io/docs/deployment/installation).
 
