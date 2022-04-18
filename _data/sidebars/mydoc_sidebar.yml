@@ -27,6 +27,14 @@ entries:
       url: /overview_support.html
       output: web, pdf
 
+  - title: CTFd
+    output: web
+    folderitems:
+
+    - title: Hosting hệ thống CTFd
+      url: /ctfd_installation.html
+      output: web
+
 
 # entries:
 # - title: 
