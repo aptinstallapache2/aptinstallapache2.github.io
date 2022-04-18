@@ -35,6 +35,10 @@ entries:
       url: /ctfd_installation.html
       output: web
 
+    - title: Deploy web challenge Php Apache
+      url: /ctfd_deploy_web_challenge_php_apache.md.html
+      output: web
+
 
 # entries:
 # - title: 
