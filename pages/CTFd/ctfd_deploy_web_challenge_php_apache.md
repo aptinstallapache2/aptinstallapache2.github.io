@@ -61,7 +61,7 @@ Giải thích thì:
 
 |        | ý nghĩa 
 | ------ | ------ 
-| version: "3.9" | ersion của file docker-compose (cái này giữ nguyên).  |
+| version: "3.9" | Version của file docker-compose (cái này giữ nguyên).  |
 | services | Chứa các container. Với mỗi service là tên của một container (tên container chọn tùy ý). |
 | build | Chỉ ra vị trị đường dẫn đặt Dockerfile (như trên là trỏ về thư mục hiện tại). |
 | ports | Kết nối port của máy host đến port của container (như trên thì 19061 là port của máy chủ, 80 là port mặc định của dịch vụ apache bcontainer). |
