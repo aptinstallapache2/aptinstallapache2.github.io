@@ -16,8 +16,8 @@ folder: CCNA
 
 Mô hình **OSI** bao gồm 7 lớp:
 
-|  |  |  |
-| -------- | -------- | -------- |
+| `                         ` |  |  |
+| --- | --- | --- |
 | **7. Application** | Tầng ứng dụng cấp phương diện cho người dùng truy nhập các thông tin và dữ liệu trên mạng thông qua chương trình ứng dụng. Tầng này là giao diện chính để người dùng tương tác với chương trình ứng dụng, và qua đó với mạng. | Telnet, HTTP, FTP, SMTP, X.400 |
 | **6. Presentation** | Tầng biên dịch có nhiệm vụ chuẩn hóa dữ liệu. Tầng này dịch dữ liệu được gửi từ tầng Application sang dạng Format chung. Và tại máy tính nhận, lớp này lại chuyển từ Format chung sang định dạng của tầng Application. | ASCII, JPEG, EBCDIC |
 | **5. Session** | Tầng phiên kiểm soát các (phiên) hội thoại giữa các máy tính. | OS, Scheduling |
