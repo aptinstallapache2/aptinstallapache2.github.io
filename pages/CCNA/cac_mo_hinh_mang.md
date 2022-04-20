@@ -8,9 +8,9 @@ folder: CCNA
 
 ## MÔ HÌNH OSI
 
-<p align="center">
-  <img width="400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/800px-OSI_Model_v1.svg.png" />
-</p>
+<div align="center">
+  <img style="max-width: 400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/800px-OSI_Model_v1.svg.png" />
+</div>
 
 **Open Standard Interconnection (OSI)** Model là một sự chuẩn hóa cho những chức năng trong hệ thống mạng. Chức năng của mô hình là giúp cho tính phức tạp của mạng trở nên đơn giản hơn, cho phép các nhà phát triển module hóa việc thiết kế. Phương pháp này cho phép nhiều nhà phát triển làm việc độc lập nhau để tạo ra những chức năng riêng biệt mà vẫn có thể hòa hợp thành một thể thống nhất một cách dễ dàng (plug-and-play). Ngoài ra mô hình còn giúp cho những quản trị viên có thể hình tượng hóa quá trình trao đổi dữ liệu giữa các máy tính để hiểu được hoạt động của hệ thống mạng một cách tường minh hơn.
 
@@ -28,6 +28,6 @@ Mô hình **OSI** bao gồm 7 lớp:
 
 Dữ liệu trên máy tính có nhu cầu truyền sẽ chuyển từ tầng 7 xuống tầng 1. Khi đi qua mỗi tầng, dữ liệu sẽ được gắn thêm định dạng của tầng đó vào. Qua bên máy tính nhận thì dữ liệu sẽ được chuyển từ tầng 1 lên tầng 7. Khi đi qua mỗi tầng, dữ liệu sẽ được gỡ bỏ định dạng mà tầng tương ứng bên kia đã gắn vào.
 
-<p align="center">
+<div align="center">
   <img src="https://vnpro.vn/upload/user/images/Tin%20T%E1%BB%A9c/1(2).jpg" />
-</p>
+</div>
