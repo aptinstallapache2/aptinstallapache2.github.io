@@ -43,6 +43,10 @@ entries:
       url: /ctfd_deploy_web_challenge_flask.html
       output: web
 
+    - title: Chạy Docker với non-root user
+      url: /ctfd_run_docker_as_a_nonroot_user.html
+      output: web
+
 
 # entries:
 # - title: 
