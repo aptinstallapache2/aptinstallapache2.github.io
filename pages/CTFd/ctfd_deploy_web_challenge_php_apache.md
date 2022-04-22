@@ -9,7 +9,7 @@ folder: CTFd
 Chuẩn bị folder với cấu trúc sau:
 
 ```
-php-apache
+web-php-apache
    ├── docker-compose.yml
    ├── Dockerfile
    └── index.php
@@ -49,7 +49,7 @@ Giải thích thì:
 ```
 version: "3.9"
 services:
-    web:
+    web-php-apache:
         build: .
         ports:
             - "19061:80"
