@@ -67,7 +67,7 @@ Giải thích thì:
 | ports | Kết nối port của máy host đến port của container (như trên thì 19061 là port của máy chủ, 80 là port mặc định của dịch vụ apache bcontainer). |
 | volumes | Gắn đường dẫn trên host machine được sử dụng trên container. |
 
-## 1. Run docker-composer
+## 4. Run docker-composer
 
 `sudo docker-composer up`
 
