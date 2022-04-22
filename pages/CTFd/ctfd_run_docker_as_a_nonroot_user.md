@@ -14,7 +14,7 @@ Sẽ rất nguy hiểm nếu chạy Docker với quyền root. Khi hackers tấn
 * Xây dựng lại Dockerfile.
 * ...
 
-Trong các phương pháp để tăng tính bảo mật cho Docker, không sử dụng root để chạy image docker bằng cách tạo user để chạy image docker là cách rất dễ thực hiện.
+Trong các phương pháp để tăng tính bảo mật cho Docker, không sử dụng root để chạy image docker bằng cách tạo user để chạy image docker là cách dễ dàng thực hiện.
 
 ## Bước 1: Tạo và thêm user vào nhóm Docker
 
