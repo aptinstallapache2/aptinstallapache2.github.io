@@ -31,3 +31,19 @@ Dữ liệu trên máy tính có nhu cầu truyền sẽ chuyển từ tầng 7 
 <div align="center">
   <img src="https://vnpro.vn/upload/user/images/Tin%20T%E1%BB%A9c/1(2).jpg" />
 </div>
+
+## MÔ HÌNH TCP/IP
+
+![image](https://user-images.githubusercontent.com/56266496/165344536-78f1c219-76ea-4ecc-8529-2e24919026f7.png)
+
+Dữ liệu qua các tầng được đóng gói như sau:
+
+<div align="center">
+  <img style="max-width: 400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/1920px-UDP_encapsulation.svg.png" />
+</div>
+
+Dữ liệu và giao thức qua các tầng:
+
+<div align="center">
+  <img style="max-width: 400px" src="https://thietbimangcisco.vn/userfiles/TCP-IP-Model.png" />
+</div>
