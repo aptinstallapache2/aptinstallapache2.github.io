@@ -32,7 +32,7 @@ Bật tắt CDP:
 Tương tự CDP.
 
 ```
-# lldp run
+(config)# lldp run
 # show lldp neighbors
 ```
 
