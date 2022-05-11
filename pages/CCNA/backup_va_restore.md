@@ -2,7 +2,7 @@
 title: BACKUP VÀ RESTORE
 summary: "Các lệnh backup và restore"
 sidebar: mydoc_sidebar
-permalink: telnet_ssh.html
+permalink: backup_va_restore.html
 folder: CCNA
 ---
 
