@@ -47,6 +47,38 @@ entries:
       url: /ctfd_run_docker_as_a_nonroot_user.html
       output: web
 
+  - title: CCNA
+    output: web
+    folderitems:
+
+    - title: Các Mô Hình Mạng
+      url: /cac_mo_hinh_mang.html
+      output: web
+
+    - title: Cấu trúc bộ giao thức TCP/IP
+      url: /cau_truc_bo_giao_thuc_tcp_ip.html
+      output: web
+
+    - title: Các loại cáp mạng
+      url: /cac_loai_cap_mang.html
+      output: web
+
+    - title: Các lệnh cơ bản
+      url: /cac_lenh_co_ban.html
+      output: web
+
+    - title: CDP/LLDP
+      url: /cdp_lldp.html
+      output: web
+
+    - title: TELNET - SSH
+      url: /telnet_ssh.html
+      output: web
+
+    - title: Backup và Restore
+      url: /backup_va_restore.html
+      output: web
+
 
 # entries:
 # - title: 
