@@ -1,5 +1,5 @@
 ---
-title: TELNET -SSH
+title: TELNET - SSH
 summary: "Các lệnh cấu hình telnet và ssh"
 sidebar: mydoc_sidebar
 permalink: telnet_ssh.html
