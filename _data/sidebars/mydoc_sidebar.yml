@@ -79,6 +79,18 @@ entries:
       url: /backup_va_restore.html
       output: web
 
+    - title: IPv4
+      url: /ipv4.html
+      output: web
+
+  - title: VoIP
+    output: web
+    folderitems:
+
+    - title: Cài đặt Asterisk 16 trên Oracle linux 8
+      url: /install_asterisk_16_on_oracle_linux_8.html
+      output: web
+
 
 # entries:
 # - title: 
