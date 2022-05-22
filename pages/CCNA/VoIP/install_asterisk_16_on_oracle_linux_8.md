@@ -70,3 +70,19 @@ $ sudo make samples
 $ sudo make config
 $ sudo ldconfig
 ```
+
+Khởi động asterisk service
+
+```
+$ cd /usr/src/
+$ cd asterisk-16*/
+$ cd contrib/systemd/
+$ sudo systemctl restart asterisk
+```
+
+Kết quả, chạy asterisk
+
+```
+$ sudo asterisk -rvv
+*CLI>
+```
