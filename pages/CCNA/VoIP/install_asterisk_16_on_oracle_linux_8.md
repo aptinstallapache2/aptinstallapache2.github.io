@@ -10,7 +10,7 @@ Disable SELINUX
 
 ```
 $ sudo sed -i 's/\(^SELINUX=\).*/\SELINUX=disabled/' /etc/selinux/config
-$ reboot
+$ sudo reboot
 ```
 
 Cài đặt các package cần thiết
