@@ -18,7 +18,7 @@ Cài đặt các package cần thiết
 ```
 $ sudo yum -y install epel-release
 $ sudo yum group -y install "Development Tools"
-$ sudo yum -y install git wget net-tools sqlite-devel psmisc libtermcap-devel newt-devel libxml2-devel libtiff-devel gtk2-devel libtool subversion kernel-devel crontabs cronie-anacron libedit libedit-devel make openssl-devel gcc gcc-c++ ncurses-devel libuuid-devel
+$ sudo yum -y install git wget net-tools sqlite-devel psmisc libtermcap-devel newt-devel libxml2-devel libtiff-devel gtk2-devel libtool subversion kernel-devel crontabs cronie-anacron make openssl-devel gcc gcc-c++ ncurses-devel libuuid-devel libedit libedit-devel
 ```
 
 * Nếu không cài đặt được libedit-devel thì dùng rpm để cài đặt
