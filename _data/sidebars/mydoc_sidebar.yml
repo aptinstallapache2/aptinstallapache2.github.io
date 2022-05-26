@@ -91,6 +91,18 @@ entries:
       url: /install_asterisk_16_on_oracle_linux_8.html
       output: web
 
+    - title: Cài đặt Asterisk GUI
+      url: /install_asterisk_gui.html
+      output: web
+
+    - title: Tạo dialplan đơn giản
+      url: /simple_dialplan.html
+      output: web
+
+    - title: Tạo dialplan tương tác
+      url: /interactive_dialplan.html
+      output: web
+
 
 # entries:
 # - title: 
