@@ -6,14 +6,14 @@ permalink: install_asterisk_16_on_oracle_linux_8.html
 folder: VoIP
 ---
 
-Disable SELINUX
+**Disable SELINUX**
 
 ```
 $ sudo sed -i 's/\(^SELINUX=\).*/\SELINUX=disabled/' /etc/selinux/config
 $ sudo reboot
 ```
 
-Cài đặt các package cần thiết
+**Cài đặt các package cần thiết**
 
 ```
 $ sudo yum -y install epel-release
@@ -28,7 +28,7 @@ Unable to find a match: libedit-devel
 $ sudo rpm -i https://vault.centos.org/centos/8/PowerTools/x86_64/os/Packages/libedit-devel-3.1-23.20170329cvs.el8.x86_64.rpm
 ```
 
-Cài đặt Jansson
+**Cài đặt Jansson**
 
 ```
 $ cd /usr/src/
@@ -39,7 +39,7 @@ $ sudo ./configure --prefix=/usr/
 $ sudo make && sudo make install
 ```
 
-Cài đặt PJSIP
+**Cài đặt PJSIP**
 
 ```
 $ cd /usr/src/
@@ -52,7 +52,7 @@ $ sudo make install
 $ sudo ldconfig
 ```
 
-Cài đặt Asterisk
+**Cài đặt Asterisk**
 
 ```
 $ cd /usr/src/
@@ -71,7 +71,7 @@ $ sudo make config
 $ sudo ldconfig
 ```
 
-Khởi động asterisk service
+**Khởi động asterisk service**
 
 ```
 $ cd /usr/src/
@@ -80,7 +80,7 @@ $ cd contrib/systemd/
 $ sudo systemctl restart asterisk
 ```
 
-Kết quả, chạy asterisk
+**Kết quả, chạy asterisk**
 
 ```
 $ sudo asterisk -rvv
