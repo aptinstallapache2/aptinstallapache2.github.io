@@ -86,3 +86,6 @@ $ sudo systemctl restart asterisk
 $ sudo asterisk -rvv
 *CLI>
 ```
+
+*(Source: https://www.sangoma.com/articles/how-to-install-asterisk-11-on-centos-6/ https://computingforgeeks.com/how-to-install-asterisk-16-lts-on-centos-rhel-8/)*
+
