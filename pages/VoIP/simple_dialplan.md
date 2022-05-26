@@ -6,7 +6,7 @@ permalink: simple_dialplan.html
 folder: VoIP
 ---
 
-*(*)Cần biết về Dialplan, Contexts, Extensions, Priorities, Applications: truy cập [link](http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/asterisk-DP-Basics-SECT-1.html)*
+*Cần biết về Dialplan, Contexts, Extensions, Priorities, Applications: truy cập [link](http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/asterisk-DP-Basics-SECT-1.html)*
 
 **Cấu hình file sip.conf**
 
