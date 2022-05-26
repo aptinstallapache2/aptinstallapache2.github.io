@@ -56,3 +56,13 @@ $ sudo systemctl restart asterisk
 ```
 
 Dùng MicroSip và Zoiper đăng nhập user và gọi thử qua lại.
+
+
+* *Trường hợp không login được do chưa cấu hình firewalld, cần mở port 5060*
+
+```
+$ sudo firewall-cmd --permanent --zone=public --add-port=5060/udp
+$ sudo firewall-cmd --reload
+```
+
+*(Source: http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/asterisk-DP-Basics-SECT-2.html)*
