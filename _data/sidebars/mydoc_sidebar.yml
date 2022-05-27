@@ -103,6 +103,10 @@ entries:
       url: /interactive_dialplan.html
       output: web
 
+    - title: Tạo hộp thư thoại
+      url: /voicemail_boxes.html
+      output: web
+
 
 # entries:
 # - title: 
