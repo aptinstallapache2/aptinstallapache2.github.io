@@ -52,7 +52,7 @@ exten => 201,1,Goto(TestMenu,start,1)
 
 [TestMenu]
 exten => start,1,Answer()
-   same => n,Background(enter-ext-of-person)
+   same => n,Background(main-menu&press-1&or&press-2)
    same => n,WaitExten(5)
 
 exten => 1,1,Dial(SIP/alice,20)
