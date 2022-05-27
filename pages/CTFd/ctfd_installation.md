@@ -16,7 +16,7 @@ Nếu lười đọc có thể thực hiện theo các bước dưới đây (tu
 
 *(Một lần nữa, mình khuyến khích nên đọc hướng dẫn [CTFd Docs](https://docs.ctfd.io/) để hiểu rõ chi tiết).*
 
-## 1. Install [Docker](https://docs.docker.com/install/)
+## 1. Install [Docker](https://docs.docker.com/engine/install/)
 
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
