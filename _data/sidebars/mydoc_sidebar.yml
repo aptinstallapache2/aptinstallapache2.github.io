@@ -75,8 +75,16 @@ entries:
       url: /telnet_ssh.html
       output: web
 
+    - title: Password recovery
+      url: /password_recovery.html
+      output: web
+
     - title: Backup và Restore
       url: /backup_va_restore.html
+      output: web
+
+    - title: Cài đặt cấu hình qua dây Octal
+      url: /octal_cable_config.html
       output: web
 
     - title: IPv4
