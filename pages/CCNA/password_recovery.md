@@ -48,11 +48,12 @@ Switch: rename flash:config.text flash:config.old
 Switch: reboot
 ```
 
-**Bước 3:** Đổi lại tên file config về cũ, và load vào run để loại bỏ password
+**Bước 3:** Load vào run để loại bỏ password
 
 ```
-Switch#copy flash:config.old flash:config.text
-Switch#copy flash:config.text system:running-config
+Switch#copy flash: run
+Source filename []? config.old
+Destination filename [running-config]? 
 ```
 
 **Bước 4:** Ghi đè hoặc loại bỏ password cũ, cuối cùng lưu lại cấu hình vào start
