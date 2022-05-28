@@ -91,6 +91,10 @@ entries:
       url: /ipv4.html
       output: web
 
+    - title: Static route
+      url: /static_route.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
