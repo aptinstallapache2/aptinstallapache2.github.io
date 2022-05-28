@@ -42,7 +42,6 @@ Router#reload
 
 ```
 Switch: flash_init
-Switch: load_helper
 Switch: dir_flash
 Switch: rename flash:config.text flash:config.old
 Switch: reboot
