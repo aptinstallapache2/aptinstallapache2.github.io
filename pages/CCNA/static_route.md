@@ -8,6 +8,80 @@ folder: CCNA
 
 ## I. Static route
 
+![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
+
+**Bước 1:** cấu hình các interfaces
+
+* **R1**
+
+```
+R1>enable
+R1#configure terminal
+R1(config)#interface GigabitEthernet0/0
+R1(config-if)#ip address 172.16.0.1 255.255.0.0
+R1(config-if)#no shutdown
+R1(config-if)#exit
+R1(config)#interface GigabitEthernet0/1
+R1(config-if)#ip address 192.168.1.254 255.255.255.0
+R1(config-if)#no shutdown
+```
+
+* **R2**
+
+```
+R2>enable
+R2#configure terminal
+R2(config)#interface GigabitEthernet0/0
+R2(config-if)#ip address 172.16.0.2 255.255.0.0
+R2(config-if)#no shutdown
+R2(config-if)#exit
+R2(config)#interface GigabitEthernet0/1
+R2(config-if)#ip address 223.17.0.1 255.255.0.0
+R2(config-if)#no shutdown
+R2(config-if)#exit
+R2(config)#interface GigabitEthernet0/2
+R2(config-if)#ip address 192.168.2.254 255.255.255.0
+R2(config-if)#no shutdown
+```
+
+* **R3**
+
+```
+R3>enable
+R3#configure terminal
+R3(config)#interface GigabitEthernet0/0
+R3(config-if)#ip address 223.17.0.2 255.255.0.0
+R3(config-if)#no shutdown
+R3(config-if)#exit
+R3(config)#interface GigabitEthernet0/1
+R3(config-if)#ip address 192.168.3.254 255.255.255.0
+R3(config-if)#no shutdown
+```
+
+**Bước 2:** Cấu hình static route
+
+* **R1**
+
+```
+R1(config)#ip route 192.168.2.0 255.255.255.0 172.16.0.2
+R1(config)#ip route 192.168.3.0 255.255.255.0 172.16.0.2
+```
+
+* **R2**
+
+```
+R2(config)#ip route 192.168.1.0 255.255.255.0 172.16.0.1
+R2(config)#ip route 192.168.3.0 255.255.255.0 223.17.0.2
+```
+
+* **R3**
+
+```
+R3(config)#ip route 192.168.1.0 255.255.255.0 223.17.0.1
+R3(config)#ip route 192.168.2.0 255.255.255.0 223.17.0.1
+```
+
+
 ## II. Summary và static route
 
 ![image](https://user-images.githubusercontent.com/56266496/170828131-cf14ba08-a8a9-42eb-877d-ad2f50b35b13.png)
