@@ -39,6 +39,10 @@ entries:
       url: /ctfd_deploy_web_challenge_php_apache.html
       output: web
 
+    - title: Deploy web challenge Php Apache Mysql
+      url: /ctfd_deploy_web_challenge_php_apache_mysql.html
+      output: web
+
     - title: Deploy web challenge Flask
       url: /ctfd_deploy_web_challenge_flask.html
       output: web
