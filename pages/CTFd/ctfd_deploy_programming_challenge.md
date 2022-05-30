@@ -78,6 +78,7 @@ Restart=always
 WantedBy=multi-user.target
 ^D
 
+$ sudo systemctl daemon-reload
 $ sudo systemctl restart pro.service
 ```
 
