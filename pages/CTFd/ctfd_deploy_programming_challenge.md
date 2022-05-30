@@ -66,7 +66,7 @@ Tạo file service để chạy challenge như một dịch vụ trên linux
 ```
 $ sudo cat >> /etc/systemd/system/pro.service
 [Unit]
-Description=Pro1
+Description=Pro
 
 [Service]
 Type=simple
