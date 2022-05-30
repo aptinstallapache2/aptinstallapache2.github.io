@@ -51,6 +51,10 @@ entries:
       url: /ctfd_run_docker_as_a_nonroot_user.html
       output: web
 
+    - title: Deploy programming challenge
+      url: /ctfd_deploy_programming_challenge.html
+      output: web
+
   - title: CCNA
     output: web
     folderitems:
