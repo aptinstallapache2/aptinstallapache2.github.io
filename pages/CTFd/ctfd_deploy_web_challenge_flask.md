@@ -94,7 +94,7 @@ Giải thích thì:
 | ------ | ------ 
 | version: "3.9" | Version của file docker-compose (cái này giữ nguyên).  |
 | services | Chứa các container. Với mỗi service là tên của một container (tên container chọn tùy ý). |
-| build | Chỉ ra vị trị đường dẫn đặt Dockerfile (như trên là trỏ về thư mục hiện tại). |
+| build | Chỉ ra vị trí đường dẫn đặt Dockerfile (như trên là trỏ về thư mục hiện tại). |
 | ports | Kết nối port của máy host đến port của container (như trên thì 19062 là port của máy chủ, 5000 là port mặc định của dịch vụ flask). |
 | volumes | Gắn đường dẫn trên host machine được sử dụng trên container. |
 
