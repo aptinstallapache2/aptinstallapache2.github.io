@@ -110,3 +110,21 @@ R3(config)#ip route 192.168.1.64 255.255.255.192 172.17.0.1
 R3(config)#ip route 192.168.1.192 255.255.255.192 172.17.0.1
 R3(config)#ip route 102.16.0.0 255.255.0.0 172.17.0.1
 ```
+
+## III. Metric và static route
+
+![image](https://user-images.githubusercontent.com/56266496/171597082-2f97d967-4c20-4fd0-a119-01702d2a8cf9.png)
+
+**R1**
+
+```
+R1(config)#ip route 192.168.2.0 255.255.255.0 10.0.0.2
+R1(config)#ip route 192.168.2.0 255.255.255.0 20.0.0.2 10
+```
+
+**R2**
+
+```
+R2(config)#ip route 192.168.1.0 255.255.255.0 10.0.0.1
+R2(config)#ip route 192.168.1.0 255.255.255.0 20.0.0.1 10
+```
