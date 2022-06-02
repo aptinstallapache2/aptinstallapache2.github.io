@@ -11,7 +11,7 @@ Chuẩn bị folder với cấu trúc sau:
 ```
 web-flask
   ├── templates/
-  │   ├── vuln.html
+  │   └── vuln.html
   ├── docker-compose.yml
   ├── Dockerfile
   ├── app.py
