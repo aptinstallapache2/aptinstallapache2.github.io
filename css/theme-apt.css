@@ -9,25 +9,25 @@ h3 {color: #ED1951; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #830A2B;
+    background-color: #d70e0a;
     color: white;
 }
 
 .nav > li.active > a {
-    background-color: #d70e0a;
-}
-
-.nav > li > a:hover {
     background-color: #830A2B;
 }
 
-div.navbar-collapse .dropdown-menu > li > a:hover {
+.nav > li > a:hover {
     background-color: #d70e0a;
+}
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    background-color: #830A2B;
 }
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #830A2B;
+    color: #d70e0a;
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #d70e0a;
+    background-color: #830A2B;
     border-color: #670822;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -63,17 +63,17 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #830A2B !important;
+    border-color: #d70e0a !important;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #d70e0a;
-    border-color: #d70e0a;
+    background-color: #830A2B;
+    border-color: #830A2B;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #d70e0a;
+    background-color: #830A2B;
 }
 
 .btn-primary:hover,
@@ -81,8 +81,8 @@ a.navbar-brand:hover {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #830A2B;
-    border-color: #d70e0a;
+    background-color: #d70e0a;
+    border-color: #830A2B;
 }
 
 .printTitle {
