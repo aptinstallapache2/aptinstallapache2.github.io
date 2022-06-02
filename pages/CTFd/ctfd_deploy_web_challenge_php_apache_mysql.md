@@ -11,9 +11,9 @@ Chuẩn bị folder với cấu trúc sau:
 ```
 web-php-apache-mysql
    ├── db
-       └── mydb.sql         // File db dùng để import
+   │   └── mydb.sql         // File db dùng để import
    ├── src
-       └── index.php        // Src web
+   │   └── index.php        // Src web
    ├── Dockerfile
    └── docker-compose.yml
 ```
