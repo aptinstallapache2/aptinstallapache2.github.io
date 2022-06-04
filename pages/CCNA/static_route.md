@@ -128,3 +128,19 @@ R1(config)#ip route 192.168.2.0 255.255.255.0 20.0.0.2 10
 R2(config)#ip route 192.168.1.0 255.255.255.0 10.0.0.1
 R2(config)#ip route 192.168.1.0 255.255.255.0 20.0.0.1 10
 ```
+
+## IV. Default route
+
+![image](https://user-images.githubusercontent.com/56266496/171996498-7eda5941-4908-4a5c-a7c6-0b796ff1883f.png)
+
+**R2**
+
+```
+R2(config)#ip route 192.168.1.0 255.255.255.0 172.22.0.1
+```
+
+**R1**
+
+```
+R1(config)#ip route 0.0.0.0 0.0.0.0 172.22.0.2
+```
