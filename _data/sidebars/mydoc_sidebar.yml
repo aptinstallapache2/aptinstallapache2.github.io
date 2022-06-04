@@ -103,6 +103,10 @@ entries:
       url: /static_route.html
       output: web
 
+    - title: Ospf route
+      url: /ospf_route.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
