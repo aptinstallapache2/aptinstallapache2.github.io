@@ -131,7 +131,7 @@ entries:
       url: /voicemail_boxes.html
       output: web
 
-    - title: "Asterisk security: chạy với quyền non-root"
+    - title: "Asterisk security: run as non-root"
       url: /asterisk_security_run_as_nonroot_user.html
       output: web
 
