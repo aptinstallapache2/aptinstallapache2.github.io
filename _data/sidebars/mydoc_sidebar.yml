@@ -135,8 +135,12 @@ entries:
       url: /asterisk_security_run_as_nonroot_user.html
       output: web
 
-    - title: "Asterisk security: TLS và SRTP"
-      url: /asterisk_security_tls_srtp.html
+    - title: "Asterisk security: TLS"
+      url: /asterisk_security_tls.html
+      output: web
+
+    - title: "Asterisk security: SRTP"
+      url: /asterisk_security_srtp.html
       output: web
 
 
