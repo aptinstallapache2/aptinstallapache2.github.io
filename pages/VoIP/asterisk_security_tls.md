@@ -1,8 +1,8 @@
 ---
-title: "Asterisk security: TLS và SRTP"
-summary: "Các bước cấu hình TLS và SRTP Asterisk"
+title: "Asterisk security: TLS"
+summary: "Các bước cấu hình Asterisk dùng TLS"
 sidebar: mydoc_sidebar
-permalink: asterisk_security_tls_srtp.html
+permalink: asterisk_security_tls.html
 folder: VoIP
 ---
 
