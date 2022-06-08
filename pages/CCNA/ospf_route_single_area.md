@@ -1,8 +1,8 @@
 ---
-title: OSPF ROUTE
+title: OSPF ROUTE (SINGLE AREA)
 summary: "Cấu hình định tuyến động sử dụng giao thức OSPF cho Router"
 sidebar: mydoc_sidebar
-permalink: ospf_route.html
+permalink: ospf_route_single_area.html
 folder: CCNA
 ---
 
