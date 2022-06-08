@@ -104,11 +104,11 @@ entries:
       output: web
 
     - title: Ospf route (single area)
-      url: /ospf_route_single_area.md
+      url: /ospf_route_single_area.html
       output: web
 
     - title: Ospf route (multi area)
-      url: /ospf_route_multi_area.md
+      url: /ospf_route_multi_area.html
       output: web
 
   - title: VoIP
