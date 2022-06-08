@@ -123,7 +123,7 @@ R3(config-router)#network 223.17.0.0 0.0.255.255 area 0
 R3(config-router)#network 192.168.3.0 0.0.0.255 area 0
 ```
 
-* **Các lệnh debug**
+## Các lệnh debug
 
 ```
 R# sh ip int bri
