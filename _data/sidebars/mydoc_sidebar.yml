@@ -103,8 +103,12 @@ entries:
       url: /static_route.html
       output: web
 
-    - title: Ospf route
-      url: /ospf_route.html
+    - title: Ospf route (single area)
+      url: /ospf_route_single_area.md
+      output: web
+
+    - title: Ospf route (multi area)
+      url: /ospf_route_multi_area.md
       output: web
 
   - title: VoIP
