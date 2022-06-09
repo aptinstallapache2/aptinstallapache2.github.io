@@ -9,3 +9,9 @@ extended (100-199)
 ktra
 theo thứ tự
 gói tin ko thuộc phát biểu nào -> deny
+
+
+access-list 1 deny host 192.168.1.1
+
+int g0/0
+ip access-group 1 out
