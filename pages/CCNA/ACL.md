@@ -20,4 +20,3 @@ int g0/0
 ip access-group 1 out
 
 https://gist.github.com/markandey/2225894
-https://github.com/tuladhar/bash-parallel-scripts.git
