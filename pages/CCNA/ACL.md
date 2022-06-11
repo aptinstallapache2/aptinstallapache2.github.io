@@ -19,4 +19,4 @@ access-list 100 deny icmp host 192.168.1.1 host 192.168.2.1
 int g0/0
 ip access-group 1 out
 
-[****](https://gist.github.com/markandey/2225894)
+(https://gist.github.com/markandey/2225894)
