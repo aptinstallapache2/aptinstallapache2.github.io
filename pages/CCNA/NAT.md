@@ -51,7 +51,7 @@ R1(config)#access-list 1 permit any
 R1(config)#ip nat inside source list 1 int g0/1 overload
 ```
 
-2.1 PAT static
+2.1 PAT static (NAT port forwarding)
 ```
 R1(config)#ip nat inside source static tcp 192.168.1.1 80 200.0.0.1 80
 ```
