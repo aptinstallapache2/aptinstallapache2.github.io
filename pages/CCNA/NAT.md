@@ -45,3 +45,8 @@ R1(config)#access-list 1 permit any
 R1(config)#ip nat pool 1 100.0.0.1 100.0.0.2 netmask 255.0.0.0
 R1(config)#ip nat inside source list 1 pool 1 overload
 ```
+c2
+```
+R1(config)#access-list 1 permit any
+R1(config)#ip nat inside source list 1 int g0/1 overload
+```
