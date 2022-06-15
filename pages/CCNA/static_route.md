@@ -6,9 +6,13 @@ permalink: static_route.html
 folder: CCNA
 ---
 
+![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
+
 ## I. Static route
 
-![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
+|   |
+|---|
+| **ip route** < ip-network > < subnet-mask > < nexthop/interface > < metric > |
 
 **Bước 1:** cấu hình các interfaces
 
