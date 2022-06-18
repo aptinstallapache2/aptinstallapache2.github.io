@@ -1,6 +1,6 @@
 ---
 title: ACCESS CONTROL LIST
-summary: "Địa chỉ IPv4"
+summary: "Danh sách điều khiển truy cập"
 sidebar: mydoc_sidebar
 permalink: acl.html
 folder: CCNA
