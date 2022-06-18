@@ -10,12 +10,9 @@ folder: CCNA
 
 ## Cách 1
 
-```
-R(config)#router ospf <PROCESS-ID>
-R(config-router)#exit
-R(config)#int <INTERFACE-ĐẤU-NỐI-TRỰC-TIẾP>
-R(config-if)#ip ospf <PROCESS-ID> area <AREA-ID>
-```
+| Syntax |
+|:---|
+| R(config)#router ospf < process-id > <br/> R(config-router)#exit <br/> R(config)#int < direct-interface > <br/> R(config-if)#ip ospf < process-id  > area < area-id > |
 
 * **R1**
 
@@ -61,10 +58,9 @@ R3(config-if)#ip ospf 1 area 0
 
 ## Cách 2 (recommend)
 
-```
-R(config)#router ospf <PROCESS-ID>
-R(config-router)#network <IP-INTERFACE-ĐẤU-NỐI-TRỰC-TIẾP> 0.0.0.0 area <AREA-ID>
-```
+| Syntax |
+|:---|
+| R(config)#router ospf < process-id > <br/> R(config-router)#network < direct-hop > 0.0.0.0 area < area-id > |
 
 * **R1**
 
@@ -93,10 +89,9 @@ R3(config-router)#network 192.168.3.254 0.0.0.0 area 0
 
 ## Cách 3
 
-```
-R(config)#router ospf <PROCESS-ID>
-R(config-router)#network <IP-NETWORK-ĐẤU-NỐI-TRỰC-TIẾP> <WILDCARD-MASK> area <AREA-ID>
-```
+| Syntax |
+|:---|
+| R(config)#router ospf < process-id > <br/> R(config-router)#network < direct-net > < wildcard-mask > area < area-id > |
 
 * **R1**
 
