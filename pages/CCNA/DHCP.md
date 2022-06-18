@@ -17,13 +17,13 @@ R2(config)#ip route 192.168.1.0 255.255.255.0 10.0.0.1
 
 ## II. DHCP Server
 
-|   |   |
-|---|---|
-| **ip dhcp pool** < name > | Khai báo tên pool |
-| **network** < net-id > < subnet-mask > | Khai báo network sẽ cấp địa chỉ IP |
-| **default-router** < ip-address > | Default gateway của các client |
-| **ip dhcp excluded-address** < ip-address > < ip-address > | Địa chỉ IP loại trừ không cấp |
-| **service dhcp** | Mở dịch vụ DHCP |
+| Syntax | Function |
+|:---|:---|
+| R1(config)#**ip dhcp pool** < name > | Khai báo tên pool |
+| R1(dhcp-config)#**network** < net-id > < subnet-mask > | Khai báo network sẽ cấp địa chỉ IP |
+| R1(dhcp-config)#**default-router** < ip-address > | Default gateway của các client |
+| R1(config)#**ip dhcp excluded-address** < ip-address > < ip-address > | Địa chỉ IP loại trừ không cấp |
+| R1(config)#**service dhcp** | Mở dịch vụ DHCP |
 
 * **R1**
 
