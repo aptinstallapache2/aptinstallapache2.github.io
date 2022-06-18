@@ -111,8 +111,16 @@ entries:
       url: /ospf_route_multi_area.html
       output: web
 
+    - title: Access List
+      url: /acl.html
+      output: web
+
     - title: DHCP
       url: /dhcp.html
+      output: web
+
+    - title: NAT
+      url: /nat.html
       output: web
 
   - title: VoIP
