@@ -68,6 +68,10 @@ R(config-ext-nacl)#permit tcp any any
 
 ## II. Áp cổng
 
+| Syntax |
+|:---|
+| int < interface > <br/> ip access-group < acl-id > < in/out > |
+
 ```
 int g0/0
 ip access-group 1 out
