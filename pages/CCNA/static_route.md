@@ -11,7 +11,7 @@ folder: CCNA
 ## I. Static route
 
 | Syntax |
-|---|
+|:---|
 | R(config)#**ip route** < ip-network > < subnet-mask > < nexthop/interface > < metric > |
 
 **Bước 1:** cấu hình các interfaces
