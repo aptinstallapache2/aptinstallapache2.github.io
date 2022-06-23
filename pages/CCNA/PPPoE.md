@@ -1,12 +1,17 @@
-				PPPoE
+---
+title: PPPoE
+summary: "Các lệnh cấu hình PPPoE"
+sidebar: mydoc_sidebar
+permalink: pppoe.html
+folder: CCNA
+---
 
-CHUẨN BỊ:
- 3 x ROUTER 2911
+	R1 ------------(G0/0) SW1 (G0/0)------------ISP
+	R2 ------------(G0/0) -┘
 
-	R1 ------------(F0/2) SW1 (F0/1)------------ISP
-	R2 ------------(F0/3) -┘
+* __ISP__
 
-__________________ ISP____________________
+```
 en
 conf t
 hostname ISP
@@ -27,8 +32,11 @@ pppoe enable group NHATNGHE
 interface G0/1
 ip address 210.245.0.1 255.255.255.0
 ip local pool NN_DHCP 210.245.0.2 210.245.0.254
+```
 
-_________________R1______________________________
+* __R1__
+
+```
 en
 conf t
 hostname R1
@@ -46,13 +54,17 @@ interface Dialer1
  encapsulation ppp
  ppp chap hostname ftth_u1
  ppp chap password 123
+```
 
-___________________________________________________
+* __Test__
+
+```
 show pppoe session
 show ip int brief
 ping 210.245.0.1
-___________________________________________________
+```
 
+```
 GHI CHÚ:
 
 Nếu có PPPoE thì phải sửa cấu hình: NAT, VPN thành cổng Dialer thay cho cổng Vật lý
@@ -73,25 +85,4 @@ vd: R1 cấu hình NAT
 VPN theo sơ đồ trong bài học, phải thay cổng f0/1 bằng Dialer 1
 	int f0/1 ---> int dialer 1
 	crypto map MAP1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
