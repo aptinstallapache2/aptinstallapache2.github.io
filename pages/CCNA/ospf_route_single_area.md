@@ -16,7 +16,7 @@ Quy trình hoạt động cơ bản:
 * Tính toán đường đi tối ưu.
 * Bản đồ được lưu vào Link State Database (LSD).
 
-![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
+![image](./img/ospf_route_single_area.png)
 
 ## Cách 1
 
