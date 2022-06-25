@@ -8,11 +8,11 @@ folder: CCNA
 
 **Mô hình**
 
-![image](https://user-images.githubusercontent.com/56266496/170729793-1687bdeb-e3a4-42dd-8a26-d3d4c5716e99.png)
+![image](./img/octal_cable_config_1.png)
 
 Trên router cần gắn thêm module HWIC-8A
 
-![image](https://user-images.githubusercontent.com/56266496/170732953-6f58ec87-6487-4ce4-bfb2-3c0c0b76aa7b.png)
+![image](./img/octal_cable_config_2.png)
 
 **Cấu hình telnet cho Router0**
 
