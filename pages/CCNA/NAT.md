@@ -16,28 +16,26 @@ folder: CCNA
 
 Trước khi cấu hình NAT cần cấu hình default route cho router
 
-```
-Default route
-R1(config)#ip route 0.0.0.0 0.0.0.0 g0/1
-```
+![image](https://user-images.githubusercontent.com/56266496/175782690-fe89a6aa-67d1-4ebc-ba26-a4b95855dea6.png)
 
 ## NAT static
 
 * __R1__
 
+Cấu hình nat
+
 ```
-R1(config)#ip nat inside source static 192.168.1.1 200.0.0.1
-R1(config)#ip nat inside source static 192.168.1.2 100.0.0.1
+R1(config)#ip nat inside source static 192.168.1.1 10.0.0.1
+R1(config)#ip nat inside source static 192.168.1.2 20.0.0.1
+```
+
+Cấu hình interface
+
+```
 R1(config)#int g0/0
-R1(config-if)#ip nat inside
-R1(config-if)#int g0/1
 R1(config-if)#ip nat outside
-```
-
-* __R2__
-
-```
-ip route 100.0.0.0 255.255.255.248 g0/1
+R1(config-if)#int g0/1
+R1(config-if)#ip nat inside
 ```
 
 ## NAT dynamic
@@ -46,7 +44,7 @@ ip route 100.0.0.0 255.255.255.248 g0/1
 
 ```
 R1(config)#access-list 1 permit any
-R1(config)#ip nat pool 1 100.0.0.1 100.0.0.2 netmask 255.0.0.0
+R1(config)#ip nat pool 1 10.0.0.1 10.0.0.2 netmask 255.0.0.0
 R1(config)#ip nat inside source list 1 pool 1
 ```
 
@@ -56,7 +54,7 @@ Cách 1
 
 ```
 R1(config)#access-list 1 permit any
-R1(config)#ip nat pool 1 100.0.0.1 100.0.0.2 netmask 255.0.0.0
+R1(config)#ip nat pool 1 10.0.0.1 10.0.0.2 netmask 255.0.0.0
 R1(config)#ip nat inside source list 1 pool 1 overload
 ```
 
@@ -70,5 +68,5 @@ R1(config)#ip nat inside source list 1 int g0/1 overload
 ## PAT static (NAT port forwarding)
 
 ```
-R1(config)#ip nat inside source static tcp 192.168.1.1 80 200.0.0.1 80
+R1(config)#ip nat inside source static tcp 192.168.1.2 80 20.0.0.1 5000
 ```
