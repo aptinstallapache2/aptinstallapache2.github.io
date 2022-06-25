@@ -6,7 +6,7 @@ permalink: dhcp.html
 folder: CCNA
 ---
 
-![image](https://user-images.githubusercontent.com/56266496/173870090-3872bae9-208e-47d8-b923-8dfedbb6ea6d.png)
+![image](./img/dhcp.png)
 
 ## I. Routing
 
