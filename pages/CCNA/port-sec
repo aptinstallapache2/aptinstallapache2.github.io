@@ -1,0 +1,10 @@
+
+
+```
+SW1(config)#int range f0/1-24
+SW1(config-if-range)#switchport mode access 
+SW1(config-if-range)#switchport port-security
+SW1(config-if-range)#switchport port-security max 1
+SW1(config-if-range)#switchport port-security mac-address sticky 
+SW1(config-if-range)#switchport port-security violation <protect/restrict/shutdown>
+```
