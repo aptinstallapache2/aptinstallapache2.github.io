@@ -14,13 +14,9 @@ folder: CCNA
 * static: one to one
 * dynamic: one to many 
 
-Trước khi cấu hình NAT cần cấu hình default route cho router
-
 ![image](https://user-images.githubusercontent.com/56266496/175782690-fe89a6aa-67d1-4ebc-ba26-a4b95855dea6.png)
 
 ## NAT static
-
-* __R1__
 
 Cấu hình nat
 
@@ -39,8 +35,6 @@ R1(config-if)#ip nat inside
 ```
 
 ## NAT dynamic
-
-* __R1__
 
 ```
 R1(config)#access-list 1 permit any
