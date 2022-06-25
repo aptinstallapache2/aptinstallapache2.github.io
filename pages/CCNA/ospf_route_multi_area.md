@@ -6,7 +6,7 @@ permalink: ospf_route_multi_area.html
 folder: CCNA
 ---
 
-![image](https://user-images.githubusercontent.com/56266496/172670098-4511e35b-70a6-41f0-af96-3c4eb7f7f57c.png)
+![image](./img/ospf_route_multi_area.png)
 
 ## Config
 
