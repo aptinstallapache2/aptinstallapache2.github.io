@@ -8,7 +8,7 @@ folder: CCNA
 
 Định tuyến là thiết lập đường đi cho các gói tin dữ liệu đến được mạng đích. Mỗi router sử dụng một bảng định tuyến để thực hiện công việc này, khi định tuyến tĩnh việc thiết lập bảng định tuyến sẽ làm thủ công.
 
-![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
+![image](./img/nat_1.png)
 
 ## I. Static route
 
@@ -90,7 +90,7 @@ R3(config)#ip route 192.168.2.0 255.255.255.0 223.17.0.1
 
 ## II. Summary và static route
 
-![image](https://user-images.githubusercontent.com/56266496/170828131-cf14ba08-a8a9-42eb-877d-ad2f50b35b13.png)
+![image](./img/nat_2.png)
 
 * **R1**
 
@@ -119,7 +119,7 @@ R3(config)#ip route 102.16.0.0 255.255.0.0 172.17.0.1
 
 ## III. Metric và static route
 
-![image](https://user-images.githubusercontent.com/56266496/171597082-2f97d967-4c20-4fd0-a119-01702d2a8cf9.png)
+![image](./img/nat_3.png)
 
 * **R1**
 
@@ -137,7 +137,7 @@ R2(config)#ip route 192.168.1.0 255.255.255.0 20.0.0.1 10
 
 ## IV. Default route
 
-![image](https://user-images.githubusercontent.com/56266496/171996498-7eda5941-4908-4a5c-a7c6-0b796ff1883f.png)
+![image](./img/nat_4.png)
 
 * **R2**
 
