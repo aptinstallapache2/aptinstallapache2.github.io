@@ -6,6 +6,8 @@ permalink: static_route.html
 folder: CCNA
 ---
 
+Định tuyến là thiết lập đường đi cho các gói tin dữ liệu đến được mạng đích. Mỗi router sử dụng một bảng định tuyến để thực hiện công việc này, khi định tuyến tĩnh việc thiết lập bảng định tuyến sẽ làm thủ công.
+
 ![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
 
 ## I. Static route
