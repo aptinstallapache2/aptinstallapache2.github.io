@@ -27,7 +27,7 @@ folder: CCNA
 
 ```
 R(config)#access-list 1 deny 192.168.1.1 0.0.0.0
-R(config)#access-list 1 deny host 192.168.1.1
+(hoặc) R(config)#access-list 1 deny host 192.168.1.1
 R(config)#access-list 1 permit any
 ```
 
@@ -36,7 +36,7 @@ R(config)#access-list 1 permit any
 ```
 R(config)#ip access-list standard 1
 R(config-std-nacl)#deny 192.168.1.1 0.0.0.0
-R(config-std-nacl)#deny host 192.168.1.1
+(hoặc) R(config-std-nacl)#deny host 192.168.1.1
 R(config-std-nacl)#permit any
 ```
 
