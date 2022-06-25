@@ -14,7 +14,7 @@ folder: CCNA
 * static: one to one
 * dynamic: one to many 
 
-![image](https://user-images.githubusercontent.com/56266496/175782690-fe89a6aa-67d1-4ebc-ba26-a4b95855dea6.png)
+![image](./img/nat.png)
 
 ## NAT static
 
