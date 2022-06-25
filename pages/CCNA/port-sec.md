@@ -1,4 +1,5 @@
 
+![image](https://user-images.githubusercontent.com/56266496/175776813-4e38ee44-8a42-481a-88a9-33f2a7d9729f.png)
 
 ```
 SW1(config)#int range f0/1-24
