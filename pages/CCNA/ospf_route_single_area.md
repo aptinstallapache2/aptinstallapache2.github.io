@@ -6,6 +6,16 @@ permalink: ospf_route_single_area.html
 folder: CCNA
 ---
 
+Giao thức điển hình của giải thuật Link State hay còn được gọi là Shortest Path First (SPF). Mỗi router khi chạy giao thức sẽ gửi các trạng thái đường link của nó cho tất cả các router trong vùng (area). Sau một thời gian trao đổi, các router sẽ đồng nhất được bảng cơ sở dữ liệu trạng thái đường link (Link State Database - LSDB) với nhau, mỗi router đều có được "bản đồ mạng" của cả vùng. Từ đó mỗi router sẽ chạy giải thuật Dijkstra tính toán ra một cây đường đi ngắn nhất (Shortest Path Tree) và dựa vào cây này để xây dựng nên bảng định tuyến.
+
+Quy trình hoạt động cơ bản:
+
+* Gửi gói tin hello quảng bá về bản thân với chu kì 10s với mạng quảng bá đa truy cập (broadcast multi-access) và 30s cho dead.
+* Bên cạnh đó quảng bá và thu các gói tin về trạng thái đường đi đến các router láng giềng - gói Link State Advertisement (LSA).
+* Dùng thuật toán Dijkstra xây dựng sơ đồ Shortest Path Tree (SPT) - bản đồ thống nhất về các router trong vùng và khoảng cách, băng thông giữa chúng theo router tính toán.
+* Tính toán đường đi tối ưu.
+* Bản đồ được lưu vào Link State Database (LSD).
+
 ![image](https://user-images.githubusercontent.com/56266496/170835633-cd538524-e5af-4519-82bc-f0596de33a86.png)
 
 ## Cách 1
