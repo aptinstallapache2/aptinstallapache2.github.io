@@ -52,7 +52,7 @@ R(config-std-nacl)#permit any
 R(config)#access-list 100 deny icmp host 192.168.1.1 host 192.168.2.1
 R(config)#access-list 100 deny tcp host 192.168.1.1 host 192.168.2.1 eq 80
 R(config)#access-list 100 deny tcp host 192.168.1.1 host 192.168.2.1 eq 443
-R(config)#access-list 100 permit tcp any any
+R(config)#access-list 100 permit ip any any
 ```
 
 
@@ -63,7 +63,7 @@ R(config)#ip access-list extended 100
 R(config-ext-nacl)#deny icmp host 192.168.1.1 host 192.168.2.1
 R(config-ext-nacl)#deny tcp host 192.168.1.1 host 192.168.2.1 eq 80
 R(config-ext-nacl)#deny tcp host 192.168.1.1 host 192.168.2.1 eq 443
-R(config-ext-nacl)#permit tcp any any
+R(config-ext-nacl)#permit ip any any
 ```
 
 ## II. Áp cổng
