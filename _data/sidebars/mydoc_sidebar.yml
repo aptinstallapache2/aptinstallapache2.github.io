@@ -123,6 +123,10 @@ entries:
       url: /nat.html
       output: web
 
+    - title: HSRP
+      url: /hsrp.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
