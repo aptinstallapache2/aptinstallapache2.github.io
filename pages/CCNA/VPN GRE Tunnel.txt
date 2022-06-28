@@ -1,0 +1,26 @@
+R1:
+
+conf t
+int tunnel 1
+ip add 10.0.0.1 255.0.0.0
+tunnel source G0/1
+tunnel destination 203.162.2.1
+tunnel mode gre ip
+exit
+
+ip route 192.168.2.0 255.255.255.0 10.0.0.2
+
+
+_______________________________
+
+R1:
+
+conf t
+int tunnel 1
+ip add 10.0.0.2 255.0.0.0
+tunnel source G0/1
+tunnel destination 203.162.1.1
+tunnel mode gre ip
+exit
+
+ip route 192.168.1.0 255.255.255.0 10.0.0.1

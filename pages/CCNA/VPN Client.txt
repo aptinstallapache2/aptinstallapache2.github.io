@@ -1,0 +1,63 @@
+﻿Public router
+
+conf t
+ip route 0.0.0.0 0.0.0.0 G0/1
+access-list 1 permit any
+ip nat inside source list 1 int g0/1 overload
+int g0/1
+ip nat outside
+int g0/0
+ip nat inside
+
+
+
+** VPN client to GW: (IPSec)
+-----------------R1--------------------------------
+aaa new-model 
+ip local pool VPNPOOL 192.168.1.200 192.168.1.250
+
+crypto isakmp policy 10
+authentication pre-share 
+group 2
+exit
+crypto isakmp client configuration group LAPTOP1
+key KEY1 
+pool VPNPOOL 
+netmask 255.255.255.0
+exit
+
+crypto ipsec transform-set MYSET esp-3des esp-sha-hmac
+
+crypto dynamic-map MYMAP 10 
+set transform-set MYSET
+reverse-route
+exit
+aaa authentication login VPNAUTH local 
+username u1 password 123
+aaa authorization network VPNAUTH local
+crypto map VPNMAP client authentication list VPNAUTH
+crypto map VPNMAP isakmp authorization list VPNAUTH 
+crypto map VPNMAP client configuration address respond
+crypto map VPNMAP 10 ipsec-isakmp dynamic MYMAP
+int g0/1
+crypto map VPNMAP
+________________________________________________________
+
+====> Test: 
+Laptop: Mở phần mềm VPN client trên Desktop -> nhập thông số:
+- Group Name: LAPTOP1
+- Group Key: KEY1
+- Host: 203.162.1.1
+- Username: u1
+- Password: 123
+---> Nhấn Connect ---> Báo connected và nhận IP: 192.168.1.200
+---> Laptop ping PC1: ok
+
+`
+
+
+
+
+
+
+	
