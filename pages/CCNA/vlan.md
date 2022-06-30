@@ -25,3 +25,21 @@ SW1(config-if-range)#switchport access vlan 101
 ```
 
 ## Inter Vlan
+
+### Cach 1: Sub interface
+
+```
+R(config)#int g0/0
+R(config-if)#no shut
+R(config-if)#ip address 192.168.1.254 255.255.255.0
+
+R(config-if)#int g0/0.1
+R(config-subif)#encapsulation dot1Q 101
+R(config-subif)#ip address 192.168.101.254 255.255.255.0
+R(config-subif)#int g0/0.2
+R(config-subif)#encapsulation dot1Q 102
+R(config-subif)#ip address 192.168.102.254 255.255.255.0
+R(config-subif)#int g0/0.3
+R(config-subif)#encapsulation dot1Q 103
+R(config-subif)#ip address 192.168.103.254 255.255.255.0
+```
