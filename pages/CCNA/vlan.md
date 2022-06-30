@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/56266496/176694085-63b64e91-7977-4faa-828b-0da59352603c.png)
+
 ## Chia vlan
 
 ```
@@ -16,6 +18,12 @@ SW1(config-vlan)#name Ketoan
 SW1(config)#vtp mode server
 SW1(config)#vtp domain ABC
 SW1(config)#vtp pass 123
+```
+
+```
+SW2(config)#vtp mode client
+SW2(config)#vtp domain ABC
+SW2(config)#vtp pass 123
 ```
 
 ```
