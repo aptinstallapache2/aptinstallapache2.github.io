@@ -1,3 +1,5 @@
+## Chia vlan
+
 ```
 SW1(config)#int g0/1
 SW1(config-if)#switchport mode trunk
@@ -21,3 +23,5 @@ SW1(config)#int range f0/1-2
 SW1(config-if-range)#switchport mode access 
 SW1(config-if-range)#switchport access vlan 101
 ```
+
+## Inter Vlan
