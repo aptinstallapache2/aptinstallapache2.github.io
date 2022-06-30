@@ -51,3 +51,19 @@ R(config-subif)#int g0/0.3
 R(config-subif)#encapsulation dot1Q 103
 R(config-subif)#ip address 192.168.103.254 255.255.255.0
 ```
+
+### Cach 2:
+
+```
+conf t
+ip routing
+int vlan 1
+no shut
+ip add 192.168.1.254 255.255.255.0
+int vlan 101
+ip add 192.168.101.254 255.255.255.0
+int vlan 102
+ip add 192.168.102.254 255.255.255.0
+int vlan 103
+ip add 192.168.103.254 255.255.255.0
+```
