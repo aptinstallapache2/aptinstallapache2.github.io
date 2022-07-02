@@ -6,6 +6,10 @@ permalink: vpn.html
 folder: CCNA
 ---
 
+Để kết nối các chi nhánh lại với nhau hoặc để người dùng từ ngoài internet kết nối vào hệ thống nội bộ, trên router cisco hỗ trợ giải pháp VPN. Có 2 loại VPN:
+* VPN Site to Site để nối 2 chi nhánh.
+* VPN Client to Site để nối người dùng cá nhân vào một chi nhánh.
+
 ![image](./img/vpn.png)
 
 ## GRE Tunnel
