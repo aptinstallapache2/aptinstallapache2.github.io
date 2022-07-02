@@ -6,7 +6,7 @@ permalink: vlan.html
 folder: CCNA
 ---
 
-![image](https://user-images.githubusercontent.com/56266496/176694085-63b64e91-7977-4faa-828b-0da59352603c.png)
+![image](./img/vlan1.png)
 
 ## Chia vlan
 
@@ -55,6 +55,10 @@ switchport access vlan 101
 
 ### Cách 1: Sub interface
 
+![image](./img/vlan2.png)
+
+* __Router__
+
 ```
 int g0/0
 no shut
@@ -72,6 +76,10 @@ ip address 192.168.103.254 255.255.255.0
 ```
 
 ### Cách 2: SW Layer 3
+
+![image](./img/vlan3.png)
+
+* __Core__
 
 ```
 conf t
