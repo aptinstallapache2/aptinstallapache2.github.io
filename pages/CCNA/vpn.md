@@ -85,3 +85,52 @@ match address 100
 int g0/0
 crypto map CMAP
 ```
+
+## IPSEC VPN Client-to-Site
+
+![image](./img/vpn1.png)
+
+* __Public router__
+
+```
+ip route 0.0.0.0 0.0.0.0 G0/1
+access-list 1 permit any
+ip nat inside source list 1 int g0/1 overload
+int g0/1
+ip nat outside
+int g0/0
+ip nat inside
+```
+
+* __R1__
+
+```
+aaa new-model 
+ip local pool VPNPOOL 192.168.1.200 192.168.1.250
+
+crypto isakmp policy 10
+authentication pre-share 
+group 2
+exit
+crypto isakmp client configuration group CCLIENT-VPN
+key KEY1 
+pool VPNPOOL 
+netmask 255.255.255.0
+exit
+
+crypto ipsec transform-set TS1 esp-3des esp-sha-hmac
+
+crypto dynamic-map DMAP 10 
+set transform-set TS1
+reverse-route
+exit
+aaa authentication login VPNAUTHEN local 
+username u1 password 123
+aaa authorization network VPNAUTHOR local
+crypto map VPNMAP client authentication list VPNAUTHEN 
+crypto map VPNMAP isakmp authorization list VPNAUTHOR 
+crypto map VPNMAP client configuration address respond
+crypto map VPNMAP 10 ipsec-isakmp dynamic DMAP
+int g0/0
+crypto map VPNMAP
+```
