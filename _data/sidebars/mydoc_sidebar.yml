@@ -127,6 +127,18 @@ entries:
       url: /hsrp.html
       output: web
 
+    - title: VPN
+      url: /vpn.html
+      output: web
+
+    - title: Port Security
+      url: /port-security.html
+      output: web
+
+    - title: VLAN
+      url: /vlan.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
