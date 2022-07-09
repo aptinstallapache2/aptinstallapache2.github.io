@@ -6,9 +6,12 @@ permalink: ipv6.html
 folder: CCNA
 ---
 
-## Giới thiệu
+## I. Giới thiệu
 
-## IPv6 Routing
+2001:0000:0000:000A:0000:0000:0000:0001
+2001::A:0000:0000:0000:1
+
+## II. IPv6 Routing
 
 ![image](./img/ipv6-routing.png)
 
