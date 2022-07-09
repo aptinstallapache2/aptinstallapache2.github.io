@@ -151,6 +151,10 @@ entries:
       url: /ipv6.html
       output: web
 
+    - title: DHCP Snooping
+      url: /dhcp-snooping.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
