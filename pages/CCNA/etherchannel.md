@@ -27,9 +27,9 @@ Bảng chia tải (Load balancing) cho Etherchannel:
 | src-mac               | Source MAC address              | 2     |
 | dst-mac               | Destination MAC address         | 2     |
 | src-dst-mac           | Both source and destination MAC | 2     |
-| src-ip                | Source IP address               | 2     |
-| src-ip                | Destination IP address          | 2     |
-| src-ip                | Both source and destination IP  | 2     |
+| src-ip                | Source IP address               | 3     |
+| src-ip                | Destination IP address          | 3     |
+| src-ip                | Both source and destination IP  | 3     |
 
 ```
 SW1(config)#port-channel load-balance src-dst-mac
