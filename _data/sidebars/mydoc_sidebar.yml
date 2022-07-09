@@ -155,6 +155,10 @@ entries:
       url: /dhcp-snooping.html
       output: web
 
+    - title: AAA
+      url: /aaa.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
