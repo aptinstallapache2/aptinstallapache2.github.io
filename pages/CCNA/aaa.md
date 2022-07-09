@@ -1,6 +1,6 @@
 ---
 title: AAA
-summary: "Các lệnh cấu hình dịch vụ cấp phát địa chỉ IP động"
+summary: "Authentication, Authorization, and Accouting"
 sidebar: mydoc_sidebar
 permalink: aaa.html
 folder: CCNA
