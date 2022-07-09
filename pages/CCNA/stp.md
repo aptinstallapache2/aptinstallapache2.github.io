@@ -6,7 +6,7 @@ permalink: stp.html
 folder: CCNA
 ---
 
-## Giới thiệu
+## I. Giới thiệu
 
 Spanning Tree Protocol (STP) là một giao thức chống loop khi xây dựng các đường dự phòng cho Switch, STP cho phép các Switch /Bridge truyền thông với nhau để phát hiện vòng lặp vật lý trong mạng, sau đó chuyển đổi mô hình sang cấu trúc cây (Tree)
 
@@ -26,7 +26,7 @@ Bước 3: Chọn Designed Port cho mỗi Segment
 - Pathcost
 - Bridge ID
 
-## Cấu hình
+## II. Cấu hình
 
 ```
 // Lệnh hiển thị STP
