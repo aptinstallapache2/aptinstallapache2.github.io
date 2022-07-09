@@ -147,6 +147,10 @@ entries:
       url: /etherchannel.html
       output: web
 
+    - title: IPv6
+      url: /ipv6.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
