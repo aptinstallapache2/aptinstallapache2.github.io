@@ -139,6 +139,10 @@ entries:
       url: /vlan.html
       output: web
 
+    - title: STP
+      url: /stp.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
