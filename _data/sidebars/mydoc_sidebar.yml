@@ -143,6 +143,10 @@ entries:
       url: /stp.html
       output: web
 
+    - title: Etherchannel
+      url: /etherchannel.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
