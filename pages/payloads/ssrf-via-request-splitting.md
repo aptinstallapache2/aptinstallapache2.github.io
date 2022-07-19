@@ -1,12 +1,13 @@
 ---
 title: SSRF via Request Splitting
+sidebar: mydoc_sidebar
 permalink: ssrf-via-request-splitting.html
 folder: Payloads
 ---
 
 Need to read:
-- https://www.rfk.id.au/blog/entry/security-bugs-ssrf-via-request-splitting/
-- https://blog.d3s34.me/weather-app
+- <https://www.rfk.id.au/blog/entry/security-bugs-ssrf-via-request-splitting/>
+- <https://blog.d3s34.me/weather-app>
 
 Example: HTB - Weather App
 
