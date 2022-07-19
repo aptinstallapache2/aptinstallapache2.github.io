@@ -195,6 +195,14 @@ entries:
       url: /asterisk_security_srtp.html
       output: web
 
+  - title: Payloads
+    output: web
+    folderitems:
+
+    - title: SSRF via Request Splitting
+      url: /ssrf-via-request-splitting.html
+      output: web
+
 
 # entries:
 # - title: 
