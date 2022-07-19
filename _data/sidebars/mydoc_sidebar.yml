@@ -203,6 +203,10 @@ entries:
       url: /ssrf-via-request-splitting.html
       output: web
 
+    - title: SQL injection bypass quote
+      url: /sqli-bypass-quote.html
+      output: web
+
 
 # entries:
 # - title: 
