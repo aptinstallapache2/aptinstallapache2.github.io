@@ -1,6 +1,6 @@
 ---
 title: SSRF via Request Splitting
-permalink: nat.html
+permalink: ssrf-via-request-splitting.html
 folder: Payloads
 ---
 
