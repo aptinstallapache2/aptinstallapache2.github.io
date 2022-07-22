@@ -207,6 +207,10 @@ entries:
       url: /sqli-bypass-quote.html
       output: web
 
+    - title: CVE-2018-16509 Python PIL/Pillow
+      url: /cve-2018-16509.html
+      output: web
+
 
 # entries:
 # - title: 
