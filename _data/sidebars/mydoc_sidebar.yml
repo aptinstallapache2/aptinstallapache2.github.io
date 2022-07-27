@@ -215,6 +215,10 @@ entries:
       url: /race-condition-async-nodejs.html
       output: web
 
+    - title: XS-Leaks
+      url: /xs-leaks.html
+      output: web
+
 
 # entries:
 # - title: 
