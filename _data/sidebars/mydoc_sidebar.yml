@@ -207,16 +207,20 @@ entries:
       url: /sqli-bypass-quote.html
       output: web
 
-    - title: CVE-2018-16509 Python PIL/Pillow
-      url: /cve-2018-16509.html
-      output: web
-
     - title: Race Condition due to Async Nodejs
       url: /race-condition-async-nodejs.html
       output: web
 
     - title: XS-Leaks
       url: /xs-leaks.html
+      output: web
+
+    - title: CVE-2021-23639 npm md-to-pdf
+      url: /cve-2021-23639.html
+      output: web
+
+    - title: CVE-2018-16509 Python PIL/Pillow
+      url: /cve-2018-16509.html
       output: web
 
 
