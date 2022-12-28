@@ -10,13 +10,21 @@ folder: CCNA
 
 Toàn bộ địa chỉ IP được chia thành 5 nhóm gọi là Class IP. 5 nhóm này phân biệt dựa vào giá trị nhóm octet đầu tiên như sau:
 
-|  | Class | First octet | Default Subnet Mask | Function |
-| --- | --- | --- | --- | --- |
-| 0------- | A | 1 - 126 | 255.0.0.0 | Unicast (IP riêng) / Broadcast (IP quảng bá) |
-| 10------ | B | 127 - 191 | 255.255.0.0 | Unicast (IP riêng) / Broadcast (IP quảng bá) |
-| 110----- | C | 192 - 223 | 255.255.255.0 | Unicast (IP riêng) / Broadcast (IP quảng bá) |
-| 1110---- | D | 224 - 239 |  | Multicast (IP nhóm) |
-| 1111---- | E | 240 - 255 |  | Experimental |
+|          | Class | First octet | Default Subnet Mask | Function                                     |
+| :------- | :---- | :---------- | :------------------ | :------------------------------------------- |
+| 0------- | A     | 1 - 126     | 255.0.0.0           | Unicast (IP riêng) / Broadcast (IP quảng bá) |
+| 10------ | B     | 127 - 191   | 255.255.0.0         | Unicast (IP riêng) / Broadcast (IP quảng bá) |
+| 110----- | C     | 192 - 223   | 255.255.255.0       | Unicast (IP riêng) / Broadcast (IP quảng bá) |
+| 1110---- | D     | 224 - 239   |                     | Multicast (IP nhóm)                          |
+| 1111---- | E     | 240 - 255   |                     | Experimental                                 |
+
+Private network:
+
+| Phạm vi địa chỉ IP            | Số lượng địa chỉ | Khối CIDR lớn nhất (mặt nạ mạng con) | Kích thước ID máy chủ | Mặt nạ bit | 
+| :---------------------------- | :--------------- | :----------------------------------- | :-------------------- | :--------- |
+| 10.0.0.0 - 10.255.255.255     | 16777216         | 10.0.0.0/8 (255.0.0.0)               | 24 bit                | 8 bit      |
+| 172.16.0.0 - 172.31.255.255   | 1048576          | 172.16.0.0/12 (255.240.0.0)          | 20 bit                | 12 bit     |
+| 192.168.0.0 - 192.168.255.255 | 65536            | 192.168.0.0/16 (255.255.0.0)         | 16 bit                | 16 bit     |
 
 Bảng phân hoạch IP:
 
