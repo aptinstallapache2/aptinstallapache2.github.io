@@ -13,7 +13,7 @@ Toàn bộ địa chỉ IP được chia thành 5 nhóm gọi là Class IP. 5 nh
 |          | Class | First octet | Default Subnet Mask | Function                                     |
 | :------- | :---- | :---------- | :------------------ | :------------------------------------------- |
 | 0------- | A     | 1 - 126     | 255.0.0.0           | Unicast (IP riêng) / Broadcast (IP quảng bá) |
-| 10------ | B     | 127 - 191   | 255.255.0.0         | Unicast (IP riêng) / Broadcast (IP quảng bá) |
+| 10------ | B     | 128 - 191   | 255.255.0.0         | Unicast (IP riêng) / Broadcast (IP quảng bá) |
 | 110----- | C     | 192 - 223   | 255.255.255.0       | Unicast (IP riêng) / Broadcast (IP quảng bá) |
 | 1110---- | D     | 224 - 239   |                     | Multicast (IP nhóm)                          |
 | 1111---- | E     | 240 - 255   |                     | Experimental                                 |
