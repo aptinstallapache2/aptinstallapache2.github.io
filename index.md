@@ -4,7 +4,7 @@ keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: Sample summary.
+summary: These brief instructions will help you get started quickly.
 ---
 
 <p align="center">
