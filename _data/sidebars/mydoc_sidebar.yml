@@ -27,13 +27,13 @@ entries:
       url: /overview_support.html
       output: web, pdf
 
-  - title: Kỹ thuật truyền số liệu
-    output: web
-    folderitems:
+#   - title: Kỹ thuật truyền số liệu
+#     output: web
+#     folderitems:
 
-    - title: Tổng quan
-      url: /01_tongquan.html
-      output: web
+#     - title: Tổng quan
+#       url: /01_tongquan.html
+#       output: web
 
   - title: CCNA
     output: web
