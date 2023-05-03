@@ -27,32 +27,12 @@ entries:
       url: /overview_support.html
       output: web, pdf
 
-  - title: CTFd
+  - title: Kỹ thuật truyền số liệu
     output: web
     folderitems:
 
-    - title: Hosting hệ thống CTFd
-      url: /ctfd_installation.html
-      output: web
-
-    - title: Deploy web challenge Php Apache
-      url: /ctfd_deploy_web_challenge_php_apache.html
-      output: web
-
-    - title: Deploy web challenge Php Apache Mysql
-      url: /ctfd_deploy_web_challenge_php_apache_mysql.html
-      output: web
-
-    - title: Deploy web challenge Flask
-      url: /ctfd_deploy_web_challenge_flask.html
-      output: web
-
-    - title: Chạy Docker với non-root user
-      url: /ctfd_run_docker_as_a_nonroot_user.html
-      output: web
-
-    - title: Deploy programming challenge
-      url: /ctfd_deploy_programming_challenge.html
+    - title: Tổng quan
+      url: /01_tongquan.html
       output: web
 
   - title: CCNA
@@ -159,6 +139,62 @@ entries:
       url: /aaa.html
       output: web
 
+  - title: CTFd
+    output: web
+    folderitems:
+
+    - title: Hosting hệ thống CTFd
+      url: /ctfd_installation.html
+      output: web
+
+    - title: Deploy web challenge Php Apache
+      url: /ctfd_deploy_web_challenge_php_apache.html
+      output: web
+
+    - title: Deploy web challenge Php Apache Mysql
+      url: /ctfd_deploy_web_challenge_php_apache_mysql.html
+      output: web
+
+    - title: Deploy web challenge Flask
+      url: /ctfd_deploy_web_challenge_flask.html
+      output: web
+
+    - title: Chạy Docker với non-root user
+      url: /ctfd_run_docker_as_a_nonroot_user.html
+      output: web
+
+    - title: Deploy programming challenge
+      url: /ctfd_deploy_programming_challenge.html
+      output: web
+
+  - title: Payloads
+    output: web
+    folderitems:
+
+    - title: SSRF via Request Splitting
+      url: /ssrf-via-request-splitting.html
+      output: web
+
+    - title: SQL injection bypass quote
+      url: /sqli-bypass-quote.html
+      output: web
+
+    - title: Race Condition due to Async Nodejs
+      url: /race-condition-async-nodejs.html
+      output: web
+
+    - title: XS-Leaks
+      url: /xs-leaks.html
+      output: web
+
+    - title: CVE-2021-23639 npm md-to-pdf
+      url: /cve-2021-23639.html
+      output: web
+
+    - title: CVE-2018-16509 Python PIL/Pillow
+      url: /cve-2018-16509.html
+      output: web
+
   - title: VoIP
     output: web
     folderitems:
@@ -193,34 +229,6 @@ entries:
 
     - title: "Asterisk security: SRTP"
       url: /asterisk_security_srtp.html
-      output: web
-
-  - title: Payloads
-    output: web
-    folderitems:
-
-    - title: SSRF via Request Splitting
-      url: /ssrf-via-request-splitting.html
-      output: web
-
-    - title: SQL injection bypass quote
-      url: /sqli-bypass-quote.html
-      output: web
-
-    - title: Race Condition due to Async Nodejs
-      url: /race-condition-async-nodejs.html
-      output: web
-
-    - title: XS-Leaks
-      url: /xs-leaks.html
-      output: web
-
-    - title: CVE-2021-23639 npm md-to-pdf
-      url: /cve-2021-23639.html
-      output: web
-
-    - title: CVE-2018-16509 Python PIL/Pillow
-      url: /cve-2018-16509.html
       output: web
 
 
