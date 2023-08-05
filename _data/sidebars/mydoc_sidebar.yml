@@ -167,6 +167,14 @@ entries:
       url: /ctfd_deploy_programming_challenge.html
       output: web
 
+  - title: Docker
+    output: web
+    folderitems:
+
+    - title: Cheatsheet
+      url: /docker_cheatsheet.html
+      output: web
+
   - title: Payloads
     output: web
     folderitems:
