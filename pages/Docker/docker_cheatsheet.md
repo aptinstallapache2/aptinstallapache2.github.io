@@ -98,7 +98,7 @@ services:
 # Docker clean all
 
 ```shell
-docker kill $(docker ps -q)
-docker rm $(docker ps -a -q) --force
-docker rmi $(docker images -q) --force
+docker kill $(docker ps -aq)
+docker rm $(docker ps -aq) --force
+docker rmi $(docker images -aq) --force
 ```
