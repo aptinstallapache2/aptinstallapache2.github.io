@@ -27,8 +27,8 @@ root@vMX1#
 
 | Syntax |
 |:---|
-| # set system services telnet |
-| # set system login user <user-name> class <operator/read-only/super-user/unauthorized> authentication plain-text-password |
+| # set system services `telnet` |
+| # set system login user `<user-name>` class `<operator/read-only/super-user/unauthorized>` authentication `plain-text-password` |
 
 ```
 [edit]
