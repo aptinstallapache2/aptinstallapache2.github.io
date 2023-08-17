@@ -11,6 +11,7 @@ folder: JN0
 ![](img/1.png)
 
 * Ethernet
+
 ```
 root@vMX1# set interfaces ge-0/0/0 unit 0 family inet address 192.168.1.1/24
 
@@ -18,6 +19,7 @@ root@vMX2# set interfaces ge-0/0/1 unit 0 family inet address 192.168.1.2/24
 ```
 
 * Vlan tagging
+
 ```
 root@vMX1# set interfaces ge-0/0/0 vlan-tagging
 root@vMX1# set interfaces ge-0/0/0 unit 10 vlan-id 10
@@ -29,6 +31,7 @@ root@vMX2# set interfaces ge-0/0/1 unit 10 family inet address 192.168.1.2/24
 ```
 
 * Groups
+
 ```
 root@vMX1# set groups vlan_tag interfaces <ge-*> vlan-tagging
 root@vMX1# set interfaces ge-0/0/0 apply-groups vlan_tag
@@ -41,6 +44,7 @@ root@vMX2# set interfaces ge-0/0/1 unit 10 family inet address 192.168.1.2/24
 ```
 
 ## More
+
 ```
 # Vô hiệu hoá port
 root@vMX1# deactivate interfaces ge-0/0/0
