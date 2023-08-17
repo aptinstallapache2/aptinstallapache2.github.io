@@ -8,7 +8,7 @@ folder: JN0
 
 ## Interface Configuration
 
-Đặt hostname
+
 ```
 root> configure
 Entering configuration mode
