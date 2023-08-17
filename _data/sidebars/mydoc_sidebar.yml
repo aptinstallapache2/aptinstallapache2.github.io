@@ -143,8 +143,12 @@ entries:
     output: web
     folderitems:
 
-    - title: TELNET
+    - title: Telnet
       url: /jn0_telnet.html
+      output: web
+
+    - title: Interface Configuration
+      url: /jn0_int_conf.html
       output: web
 
   - title: CTFd
