@@ -139,6 +139,14 @@ entries:
       url: /aaa.html
       output: web
 
+  - title: JN0
+    output: web
+    folderitems:
+
+    - title: TELNET
+      url: /jn0_telnet.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
