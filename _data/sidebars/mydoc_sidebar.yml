@@ -155,6 +155,10 @@ entries:
       url: /jn0_int_conf.html
       output: web
 
+    - title: Static Route
+      url: /jn0_static_route.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
