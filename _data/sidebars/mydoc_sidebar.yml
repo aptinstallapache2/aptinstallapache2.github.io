@@ -143,6 +143,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Junos CLI
+      url: /jn0_cli.html
+      output: web
+
     - title: Telnet
       url: /jn0_telnet.html
       output: web
