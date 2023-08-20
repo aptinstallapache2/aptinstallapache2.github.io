@@ -38,7 +38,9 @@ Giao diện dòng lệnh (CLI) hỗ trợ các chuỗi phím theo kiểu Emacs c
 * Ctrl+w: Xóa toàn bộ từ bên trái của con trỏ;
 * Ctrl+l: Vẽ lại dòng lệnh hiện tại;
 * Ctrl+p, Ctrl+n: Lặp lại lệnh trước và lệnh tiếp theo trong lịch sử lệnh tương ứng;
+
 -------------------------
+
 * Esc+d: Xóa từ bên phải;
 * Esc+b: Di chuyển con trỏ lùi lại một từ mà không xóa;
 * Esc+f: Di chuyển con trỏ tới phía trước một từ mà không xóa.
