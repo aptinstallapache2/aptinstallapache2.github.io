@@ -33,7 +33,7 @@ set interfaces ge-0/0/1 unit 0 family inet6 address 2003::3/64
 
 | Syntax |
 |:---|
-| set routing-options rib inet6.0 static route `<destination>` next-hop `<next-hop>` |
+| set routing-options `rib inet6.0` static route `<destination>` next-hop `<next-hop>` |
 
 ```
 # vMX1
