@@ -159,6 +159,10 @@ entries:
       url: /jn0_static_route.html
       output: web
 
+    - title: OSPF Route
+      url: /jn0_ospf_route.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
