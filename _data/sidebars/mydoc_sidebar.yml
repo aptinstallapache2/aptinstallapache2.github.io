@@ -167,6 +167,10 @@ entries:
       url: /jn0_ipv6.html
       output: web
 
+    - title: Routing Policy
+      url: /jn0_routing_policy.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
