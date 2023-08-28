@@ -35,6 +35,7 @@ set interfaces lo0 unit 0 family inet address 8.8.8.8/32
 ```
 
 * Static Route
+
 ```
 # vMX1
 set routing-options static route 0.0.0.0/0 next-hop 172.30.15.1
@@ -44,6 +45,7 @@ set routing-options static route 10.0.0.0/8 next-hop 172.30.15.2
 ```
 
 * OSPF Route
+
 ```
 # vMX1
 set protocols ospf area 0.0.0.0 interface lo0.0
@@ -67,12 +69,14 @@ set policy-options policy-statement default-static term accept-default-static th
 ```
 
 ## Áp Policy
+
 ```
 # vMX1
 set protocols ospf export default-static
 ```
 
 ## Kiểm tra
+
 ```
 [edit]
 root@vMX2# run show route protocol ospf exact 0.0.0.0/0
