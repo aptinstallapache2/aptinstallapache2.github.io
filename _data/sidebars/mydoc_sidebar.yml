@@ -171,6 +171,10 @@ entries:
       url: /jn0_routing_policy.html
       output: web
 
+    - title: Firewall Filter
+      url: /jn0_firewall_filter.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
