@@ -47,13 +47,7 @@ set routing-options static route 10.0.0.0/8 next-hop 172.30.15.2
 * OSPF Route
 
 ```
-# vMX1
-set protocols ospf area 0.0.0.0 interface lo0.0
-set protocols ospf area 0.0.0.0 interface ge-0/0/0.0
-set protocols ospf area 0.0.0.0 interface ge-0/0/1.0
-set protocols ospf area 0.0.0.0 interface ge-0/0/3.0
-
-# vMX2 + vMX3
+# vMX1 + vMX2 + vMX3
 set protocols ospf area 0.0.0.0 interface lo0.0
 set protocols ospf area 0.0.0.0 interface ge-0/0/0.0
 set protocols ospf area 0.0.0.0 interface ge-0/0/1.0
