@@ -8,13 +8,13 @@ folder: JN0
 
 ## Notes
 
-> Chính sách cân bằng tải được tạo trong Junos OS luôn chứa cùng cú pháp cấu hình "`load-balance per-packet`". Tuy nhiên, hành vi cân bằng tải thực tế phụ thuộc vào nền tảng của thiết bị.
+Chính sách cân bằng tải được tạo trong Junos OS luôn chứa cùng cú pháp cấu hình "`load-balance per-packet`". Tuy nhiên, hành vi cân bằng tải thực tế phụ thuộc vào nền tảng của thiết bị.
 
-> Internet Processor I -> per-packet (Có trên các thiết bị Junos cũ)
+Internet Processor I -> per-packet (Có trên các thiết bị Junos cũ)
 
-> Internet Processor II -> per-flow (Có trên các thiết bị Junos hiện đại)
+Internet Processor II -> per-flow (Có trên các thiết bị Junos hiện đại)
 
-> `per-flow` > `per-packet`. Per-packet giúp cân bằng tải tốt hơn nhưng gây sắp xếp lại gói tin, giảm hiệu suất mạng. Per-flow cân bằng tải theo luồng, không cần sắp xếp lại gói tin, độ trễ thấp.
+`per-flow` > `per-packet`. Per-packet giúp cân bằng tải tốt hơn nhưng gây sắp xếp lại gói tin, giảm hiệu suất mạng. Per-flow cân bằng tải theo luồng, không cần sắp xếp lại gói tin, độ trễ thấp.
 
 ## Chuẩn bị
 
