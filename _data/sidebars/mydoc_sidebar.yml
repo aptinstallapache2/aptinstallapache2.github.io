@@ -175,6 +175,10 @@ entries:
       url: /jn0_firewall_filter.html
       output: web
 
+    - title: Load Balancing
+      url: /jn0_load_balancing.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
