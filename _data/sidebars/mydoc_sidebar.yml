@@ -179,6 +179,10 @@ entries:
       url: /jn0_load_balancing.html
       output: web
 
+    - title: Filter-Based Forwarding
+      url: /jn0_filter_based_forwarding.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
