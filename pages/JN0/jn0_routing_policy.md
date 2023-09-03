@@ -57,16 +57,16 @@ set protocols ospf area 0.0.0.0 interface ge-0/0/1.0
 
 ```
 # vMX1
-set policy-options policy-statement default-static term accept-default-static from protocol static
-set policy-options policy-statement default-static term accept-default-static from route-filter 0.0.0.0/0 exact
-set policy-options policy-statement default-static term accept-default-static then accept
+set policy-options policy-statement static-to-ospf term static-accept from protocol static
+set policy-options policy-statement static-to-ospf term static-accept from route-filter 0.0.0.0/0 exact
+set policy-options policy-statement static-to-ospf term static-accept then accept
 ```
 
 ## Áp Policy
 
 ```
 # vMX1
-set protocols ospf export default-static
+set protocols ospf export static-to-ospf
 ```
 
 ## Kiểm tra
