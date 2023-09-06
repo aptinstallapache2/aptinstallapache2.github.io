@@ -183,6 +183,10 @@ entries:
       url: /jn0_filter_based_forwarding.html
       output: web
 
+    - title: BGP
+      url: /jn0_bgp.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
