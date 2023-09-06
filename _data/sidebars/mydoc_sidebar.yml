@@ -191,6 +191,10 @@ entries:
       url: /jn0_tunnel.html
       output: web
 
+    - title: VRRP
+      url: /jn0_vrrp.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
