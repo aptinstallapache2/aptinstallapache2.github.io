@@ -187,6 +187,10 @@ entries:
       url: /jn0_bgp.html
       output: web
 
+    - title: IP Tunneling
+      url: /jn0_tunnel.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
