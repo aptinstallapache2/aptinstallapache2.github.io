@@ -195,6 +195,10 @@ entries:
       url: /jn0_vrrp.html
       output: web
 
+    - title: VLAN
+      url: /jn0_vlan.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
