@@ -199,6 +199,10 @@ entries:
       url: /jn0_vlan.html
       output: web
 
+    - title: MPLS
+      url: /jn0_mpls.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:
