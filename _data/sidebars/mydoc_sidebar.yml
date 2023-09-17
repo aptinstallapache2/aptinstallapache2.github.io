@@ -207,6 +207,10 @@ entries:
       url: /jn0_erp.html
       output: web
 
+    - title: LAG
+      url: /jn0_lag.html
+      output: web
+
     - title: MPLS
       url: /jn0_mpls.html
       output: web
