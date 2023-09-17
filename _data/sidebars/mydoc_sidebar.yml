@@ -203,6 +203,10 @@ entries:
       url: /jn0_stp.html
       output: web
 
+    - title: ERP
+      url: /jn0_erp.html
+      output: web
+
     - title: MPLS
       url: /jn0_mpls.html
       output: web
