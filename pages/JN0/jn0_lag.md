@@ -6,7 +6,7 @@ permalink: jn0_lag.html
 folder: JN0
 ---
 
-![](img/17.png)
+![](image.png)
 
 ## Bước 1: Tạo giao diện Aggregated Ethernet (AE)
 
@@ -35,12 +35,12 @@ ae0                     up    down
 
 set interfaces ae0 vlan-tagging
 set interfaces ae0 aggregated-ether-options lacp active
-set interfaces ae0 unit 100 vlan-id 100
+set interfaces ae0 unit 0 family bridge interface-mode trunk
+set interfaces ae0 unit 0 family bridge vlan-id-list 100
 
 set interfaces ge-0/0/0 gigether-options 802.3ad ae0
 set interfaces ge-0/0/1 gigether-options 802.3ad ae0
 set interfaces ge-0/0/2 gigether-options 802.3ad ae0
-set interfaces ge-0/0/3 gigether-options 802.3ad ae0
 ```
 
 ## Kiểm tra
