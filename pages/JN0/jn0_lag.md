@@ -6,7 +6,7 @@ permalink: jn0_lag.html
 folder: JN0
 ---
 
-![](image.png)
+![](img/17.png)
 
 ## Bước 1: Tạo giao diện Aggregated Ethernet (AE)
 
