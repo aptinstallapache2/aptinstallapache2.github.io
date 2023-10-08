@@ -6,6 +6,18 @@ permalink: jn0_bgp.html
 folder: JN0
 ---
 
+## Notes
+
+Bảng thuộc tính BGP (Thường dùng)
+
+| Name             | Type                     |
+|:-----------------|:-------------------------|
+| Nexthop          | Well-known mandatory     |
+| Local Preference | Well-known discretionary |
+| AS Path          | Well-known mandatory     |
+| Origin           | Well-known mandatory     |
+| Community        | Optional transitive      |
+
 ## Chuẩn bị
 
 ![](img/9.png)

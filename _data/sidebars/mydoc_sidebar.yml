@@ -219,6 +219,14 @@ entries:
     #   url: /jn0_ldp_rsvp.html
     #   output: web
 
+  - title: RE
+    output: web
+    folderitems:
+
+    - title: SRE review
+      url: /re_sre.html
+      output: web
+
   - title: CTFd
     output: web
     folderitems:

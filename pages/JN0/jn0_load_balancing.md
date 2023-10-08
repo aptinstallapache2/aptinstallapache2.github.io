@@ -8,6 +8,13 @@ folder: JN0
 
 ## Notes
 
+Mặc định, Junos OS quyết định luồng lưu lượng dựa vào 4 keys sau:
+
+|                          |                     |
+|:-------------------------|:--------------------|
+| Incoming Interface Index | Destination Address |
+| Source Address           | Protocol            |
+
 Chính sách cân bằng tải được tạo trong Junos OS luôn chứa cùng cú pháp cấu hình "`load-balance per-packet`". Tuy nhiên, hành vi cân bằng tải thực tế phụ thuộc vào nền tảng của thiết bị.
 
 Internet Processor I -> per-packet (Có trên các thiết bị Junos cũ)

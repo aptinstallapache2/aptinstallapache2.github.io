@@ -127,6 +127,10 @@ round-trip min/avg/max/stddev = 2.687/6.506/20.471/6.992 ms
 
 ![Alt text](img/3.png)
 
+`preference` > `metric`
+
+Route được chọn dựa vào `preference` thấp hơn rồi mới đến `metric` thấp hơn.
+
 ```
 # vMX1
 set routing-options static route 2.2.2.2/32 next-hop 172.0.12.2
