@@ -58,6 +58,30 @@ interface Dialer0
  ip address negotiated
  encapsulation ppp
  dialer pool 1
+ ppp authentication chap callin
+ ppp pap sent-username ftth_u1 password 123
+!
+end
+write
+
+```
+
+```
+en
+conf t
+hostname Modem1
+!
+interface Ethernet0/0
+ no shutdown
+ no ip address
+ pppoe enable
+ pppoe-client dial-pool-number 1
+!
+interface Dialer0
+ mtu 1492
+ ip address negotiated
+ encapsulation ppp
+ dialer pool 1
  ppp chap hostname ftth_u1
  ppp chap password 123
 !
