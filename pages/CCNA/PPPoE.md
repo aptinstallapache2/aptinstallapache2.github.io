@@ -58,7 +58,7 @@ interface Dialer0
  ip address negotiated
  encapsulation ppp
  dialer pool 1
- ppp authentication chap callin
+ ppp authentication pap callin
  ppp pap sent-username ftth_u1 password 123
 !
 end
